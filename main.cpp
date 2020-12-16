@@ -24,11 +24,11 @@ void DrawCircle()
 void DrawSquare()
 {
     cout<<"ddd";
-    unsigned long int square[1000][1000];
+    int square[1000][1000];
     for(int i = 0; i < 1000; i++)
     {
         //process of drawing
-        this_thread::sleep_for(chrono::milliseconds(1));
+        this_thread::sleep_for(chrono::milliseconds(100));
         for (int j = 0; j < 1000; j++) {
             square[i][j] = i + j;
         }
